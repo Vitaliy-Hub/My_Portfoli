@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Віталій Нечаєв | Портфоліо</title>
+    <link rel="icon" href="/Portfolio/src/image/V.png" />
+    <link rel="stylesheet" href="/Portfolio/src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Тут знаходиться навігаія (панель) -->
+  <body>
+    <section class="навігація">
+      <div class="контейнер">
+        <a href="#" class="лого" id="logoToggle">
+          <div class="лого-зображення">
+            <img src="/Portfolio/src/image/V.png" width="40" height="40" />
+          </div>
+        </a>
+        <div class="посилання" id="navLinks">
+          <a href="#головне">Головна</a>
+          <a href="#про-мене-профіль">Про мене</a>
+          <a href="#технології">Технології</a>
+          <a href="#проекти">Проекти</a>
+          <a href="#послуги">Послуги</a>
+          <a href="#контакти">Контакти</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Тут перший текст при вході на сайті -->
+    <section class="сторінка">
+      <div class="контейнер">
+        <h1 data-aos="fade-up">Віталій Нечаєв</h1>
+        <p data-aos="fade-up" data-aos-delay="200">
+          Реалізую ваші цифрові амбіції
+        </p>
+      </div>
+    </section>
+
+    <!-- Тут Про мене на сайті -->
+    <section id="про-мене-профіль" class="профіль-панель">
+      <div class="контейнер">
+        <div class="профіль-3d" data-aos="flip-up">
+          <div class="профіль-ліво">
+            <div class="фото-рамка">
+              <img
+                src="/Portfolio/src/image/Vitaliy.jpg"
+                alt="Віталій Нечаєв"
+                class="профіль-фото"
+              />
+              <div class="ховер-ефект"></div>
+            </div>
+            <div class="соц-мережі">
+              <!-- Тут можна додати посилання на соціальні мережі -->
+            </div>
+          </div>
+          <div class="профіль-право">
+            <div class="ukr">
+              <img src="/Portfolio/src/image/ukraine.png" alt="ukr">
+            </div>
+            <h2>Віталій Нечаєв</h2>
+            <p class="підзаголовок">Full-stack розробник</p>
+
+            <div class="інфо-таби">
+              <button class="таб актив" data-target="про-мене">Про мене</button>
+            </div>
+            <div class="таб-контент актив" id="про-мене">
+              <p>
+                Кодую майбутнє — створюю цифрові веб-сайти прям зараз!
+                Спеціалізуюсь на створенні сучасних адаптивних веб-сатів для
+                вас.
+              </p>
+              <div class="характеристики">
+                <div class="характеристика">
+                  <span>Місцезнаходження: <br></span>
+                  <strong>Україна</strong>
+                </div>
+                <div class="характеристика">
+                  <span>Доступність: <br /></span>
+                  <strong>Онлайн</strong>
+                </div>
+                <div class="характеристика">
+                  <span>Досвід:</span>
+                  <strong style="display: block; margin-top: 5px"
+                    >6 місяців</strong
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Тут мої технології на сайті -->
+    <section id="технології" class="технології">
+      <div class="контейнер">
+        <h2 data-aos="fade-up">Мої технології</h2>
+        <div class="сітка-технологій">
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>HTML</h3>
+              <p>Мова розмітки для створення веб-сторінок.</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>CSS</h3>
+              <p>Мова стилів для оформлення веб-сторінок.</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>JavaScript</h3>
+              <p>Мова програмування для створення динамічних веб-сторінок.</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>React</h3>
+              <p>Бібліотека для створення користувацьких інтерфейсів.</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>TypeScript</h3>
+              <p>Мова програмування, яка є надбудовою над JavaScript.</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Node.js</h3>
+              <p>Серверне середовище для виконання JavaScript-коду.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Тут Проекти на сайті -->
+    <section id="проекти" class="проекти">
+      <div class="контейнер">
+        <h2 data-aos="fade-up">Мої проекти</h2>
+        <div class="сітка-проектів">
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Проект 1</h3>
+              <p>Мій портфоліо! Тут буде детальний опис проекту...</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Проект 1</h3>
+              <p>Мій портфоліо! Тут буде детальний опис проекту...</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Проект 1</h3>
+              <p>Мій портфоліо! Тут буде детальний опис проекту...</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Проект 1</h3>
+              <p>Мій портфоліо! Тут буде детальний опис проекту...</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Проект 1</h3>
+              <p>Мій портфоліо! Тут буде детальний опис проекту...</p>
+            </div>
+          </div>
+          <div class="картка" data-aos="zoom-in">
+            <div class="картка-зміст">
+              <h3>Проект 1</h3>
+              <p>Мій портфоліо! Тут буде детальний опис проекту...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Тут мої послуги на сайті -->
+    <section id="послуги" class="послуги">
+      <div class="контейнер">
+        <h2 class="секія-назва">Мої послуги</h2>
+        <div class="послуги-картки">
+          <!-- Карточка №1 -->
+          <div class="послуга-картка">
+            <h3 class="послуга-назва">Фронтенд-розробка</h3>
+            <p class="послуга-опис">
+              Створення сучасні адаптивні веб-сайти.
+            </p>
+          </div>
+
+          <!-- Карточка №3 -->
+          <div class="послуга-картка">
+            <h3 class="послуга-назва">Бекенд-розробка</h3>
+            <p class="послуга-опис">
+              Створення бекенд для веб-сайту.
+            </p>
+          </div>
+
+          <!-- Карточка №4 -->
+          <div class="послуга-картка">
+            <h3 class="послуга-назва">Дизайн</h3>
+            <p class="послуга-опис">
+              Роблю дизайн або щось подібне для сайту.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="контакти" class="контакти">
+      <div class="контейнер">
+        <h2 data-aos="fade-up">Мої контакти</h2>
+        <p class="контакт-опис" data-aos="fade-up" data-aos-delay="100">
+          Я готовий до співпраці! Зв'яжіться зі мною через будь-який з нижче
+          наведених прикладів.
+        </p>
+        <div class="контакт-інфо">
+          <a
+            href="https://t.me/VitaliyNecaev"
+            class="контакт-картка"
+            data-aos="zoom-in"
+          >
+            <img src="/Portfolio/src/image/telegram.png" alt="Telegram" />
+            <span>Telegram</span>
+          </a>
+          <a
+            href="https://discord.com/users/_.klever._"
+            class="контакт-картка"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img src="/Portfolio/src/image/discord.png" alt="Discord" />
+            <span>Discord</span>
+          </a>
+          <a
+            href="mailto:vitaliyn2008@gmail.com"
+            class="контакт-картка"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <img src="/Portfolio/src/image/gmail.png" alt="Email" />
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="/Portfolio/src/script.js"></script>
+  </body>
+</html>
